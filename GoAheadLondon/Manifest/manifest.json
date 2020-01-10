@@ -1,0 +1,60 @@
+﻿{
+  "$schema": "https://statics.teams.cdn.office.net/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.3",
+  "version": "1.0.0",
+  "id": "36c4d2c9-0231-4292-a666-6eb3a3ce14da",
+  "packageName": "com.contoso.helloworld",
+  "developer": {
+    "name": "Go-Ahead London",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.microsoft.com/privacy",
+    "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+  },
+  "name": {
+    "short": "Go-AheadLondon",
+    "full": "Go-Ahead London app"
+  },
+  "description": {
+    "short": "Go Ahead London app",
+    "full": "This app belongs to Go-Ahead London."
+  },
+  "icons": {
+    "outline": "GoAheadLondon20x20.png",
+    "color": "GoAheadLondon96x96.png"
+  },
+  "accentColor": "#60A18E",
+  "staticTabs": [
+    {
+      "entityId": "HomeTab",
+      "name": "My Home",
+      "contentUrl": "https://9dd21f42.ngrok.io",
+      "websiteUrl": "https://9dd21f42.ngrok.io",
+      "scopes": [ "personal" ]
+    },
+    {
+      "entityId": "forms",
+      "name": "Forms",
+      "contentUrl": "https://9dd21f42.ngrok.io/Home",
+      "websiteUrl": "https://9dd21f42.ngrok.io/Home",
+      "scopes": [ "personal" ]
+    },
+    {
+      "entityId": "policies",
+      "name": "Policies",
+      "contentUrl": "https://9dd21f42.ngrok.io/Home",
+      "websiteUrl": "https://9dd21f42.ngrok.io/Home",
+      "scopes": [ "personal" ]
+    }
+  ],
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://9dd21f42.ngrok.io/configure",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "permissions": [],
+  "validDomains": []
+}
