@@ -10,7 +10,8 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="../COntent/styles.css" />
+    <link rel="stylesheet" href="../Content/styles.css" />
+    <script src="@("https://unpkg.com/@microsoft/teams-js@1.4.1/dist/MicrosoftTeams.min.js")"></script>
     <script>
         microsoftTeams.initialize();
     </script>
@@ -39,7 +40,7 @@
             </div>
             <div class="col-md-6 data md-ht">
                 <div class="col-md-2 col-lg-2 data">
-                    <img src="../Images/usericon.png" class='user-icon' alt="user" /></i>
+                    <img src="../Images/usericon.png" class='user-icon' alt="user" />
                 </div>
                 <div class="col-md-10 col-lg-10 mb">
                     <strong><span class="text-danger"></span> Babek mentioned you</strong><br />            <small>Waterloo Garge</small><br />
@@ -76,10 +77,10 @@
 
         <div class="row"><div class="QL">Quick Links</div></div>
         <div class="row links">
-            <button class="btn btn-info btn-sm">OARS</button>
+            <button class="btn btn-info btn-sm" onclick="microsoftTeams.executeDeepLink('https://teams.microsoft.com/l/entity/7490ce52-1645-4853-b9eb-d9d3803ad7d6/oars')">OARS</button>
             <button class="btn btn-info btn-sm">Mix</button>
-            <button class="btn btn-info btn-sm" onclick="microsoftTeams.executeDeepLink('https://teams.microsoft.com/l/entity/36c4d2c9-0231-4292-a666-6eb3a3ce14da/forms')">Forms</button>
-            <button class="btn btn-info btn-sm">Payslips</button>
+            <button class="btn btn-info btn-sm" onclick="microsoftTeams.executeDeepLink('https://teams.microsoft.com/l/entity/7490ce52-1645-4853-b9eb-d9d3803ad7d6/forms')">Forms</button>
+            <button class="btn btn-info btn-sm" onclick="microsoftTeams.executeDeepLink('https://teams.microsoft.com/l/entity/7490ce52-1645-4853-b9eb-d9d3803ad7d6/policies')">Payslips</button>
             <button class="btn btn-info btn-sm">Benefits</button>
             <button class="btn btn-info btn-sm">Vacancies</button>
         </div>

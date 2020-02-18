@@ -2,8 +2,8 @@
   "$schema": "https://statics.teams.cdn.office.net/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
   "manifestVersion": "1.3",
   "version": "1.0.0",
-  "id": "36c4d2c9-0231-4292-a666-6eb3a3ce14da",
-  "packageName": "com.contoso.helloworld",
+  "id": "16ded7af-4fa1-4702-9337-584c9b4da3f0",
+  "packageName": "GoAheadLondon",
   "developer": {
     "name": "Go-Ahead London",
     "websiteUrl": "https://www.microsoft.com",
@@ -11,7 +11,7 @@
     "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
   },
   "name": {
-    "short": "Go-AheadLondon",
+    "short": "GoAhead London",
     "full": "Go-Ahead London app"
   },
   "description": {
@@ -27,28 +27,28 @@
     {
       "entityId": "HomeTab",
       "name": "My Home",
-      "contentUrl": "https://9dd21f42.ngrok.io",
-      "websiteUrl": "https://9dd21f42.ngrok.io",
+      "contentUrl": "https://goaheadlondon20200113024335.azurewebsites.net/",
+      "websiteUrl": "https://goaheadlondon20200113024335.azurewebsites.net/",
       "scopes": [ "personal" ]
     },
     {
       "entityId": "forms",
       "name": "Forms",
-      "contentUrl": "https://9dd21f42.ngrok.io/Home",
-      "websiteUrl": "https://9dd21f42.ngrok.io/Home",
+      "contentUrl": "https://apps.powerapps.com/play/8087570e-3680-4a7b-be5e-bc0eb5db1abc?tenantId=89502398-d62b-4056-9d65-f89c93b38ca9&source=portal&screenColor=rgba(0%2C%20176%2C%20240%2C%201)",
+      "websiteUrl": "https://apps.powerapps.com/play/8087570e-3680-4a7b-be5e-bc0eb5db1abc?tenantId=89502398-d62b-4056-9d65-f89c93b38ca9&source=portal&screenColor=rgba(0%2C%20176%2C%20240%2C%201)",
       "scopes": [ "personal" ]
     },
     {
       "entityId": "policies",
       "name": "Policies",
-      "contentUrl": "https://9dd21f42.ngrok.io/Home",
-      "websiteUrl": "https://9dd21f42.ngrok.io/Home",
+      "contentUrl": "https://apps.powerapps.com/play/574ca0fb-a363-41be-94e1-41d777a8936f?tenantId=89502398-d62b-4056-9d65-f89c93b38ca9&source=portal&screenColor=rgba(0%2C%20176%2C%20240%2C%201)",
+      "websiteUrl": "https://apps.powerapps.com/play/574ca0fb-a363-41be-94e1-41d777a8936f?tenantId=89502398-d62b-4056-9d65-f89c93b38ca9&source=portal&screenColor=rgba(0%2C%20176%2C%20240%2C%201)",
       "scopes": [ "personal" ]
     }
   ],
   "configurableTabs": [
     {
-      "configurationUrl": "https://9dd21f42.ngrok.io/configure",
+      "configurationUrl": "https://goaheadlondon20200113024335.azurewebsites.net/configure",
       "canUpdateConfiguration": true,
       "scopes": [
         "team"
@@ -56,5 +56,8 @@
     }
   ],
   "permissions": [],
-  "validDomains": []
+  "validDomains": [
+    "*.ngrok.io",
+    "goaheadlondon20200113024335.azurewebsites.net"
+  ]
 }

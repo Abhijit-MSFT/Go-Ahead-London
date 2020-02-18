@@ -22,8 +22,8 @@ namespace Microsoft.Teams.Samples.HelloWorld.Web.Controllers
             return View();
         }
 
-        [Route("second")]
-        public ActionResult Second()
+        [Route("oars")]
+        public ActionResult OARS()
         {
             return View();
         }
